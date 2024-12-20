@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="source/styles/mycss.css">
+        <link rel="stylesheet" href="source/styles/bgvideo.css">
+      
+      </head>
+
+      <ul class="nav">
+        <div class="bgvideo1">
+            <img src="source/images/zastavka.png"  alt="..."></a>>
+          <div class="buttons">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="photo.html">Фото</a></li>
+            <li><a href="space.html">O космосе</a></li>
+            <li><a class="nav-link active" href="mars.html">На марс</a></li>
+            <li><a href="house.html">Наш дом</a></li>
+          </div>
+          <div class="bilet-mars">
+              <div class="bilet-text">
+                <h1 class="text-mars">Отправь свое имя в космос</h1>
+              </div>
+              <div class="bilet-photo">
+                <img src="source/images/bilet.png"  alt="">
+                <div class="containerrr">
+                    <form id="myForm" action="submit.php" method="post">
+                      <label for="name"></label>
+                      <input type="text" id="name" name="name" placeholder="Ваши фамилия и имя" required>
+                      <button class="otp" type="submit">Отправить</button>
+                    </form>
+                  </div>
+                  <script src="verification.js"></script>
+              </div>
+          </div>
+        </div>
+               
+      </ul>
+</html> 
